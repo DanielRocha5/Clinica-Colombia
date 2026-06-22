@@ -26,13 +26,13 @@ class RolesSeeder extends Seeder
 
         // Crea un admin de prueba si no existe (necesario porque la BD se reinicia en cada deploy)
         $adminUser = User::firstOrCreate(
-            ['email' => 'admin@clinica.com'],
+            ['email' => 'danielpulidorocha2006@gmail.com'],
             [
                 'nombre'    => 'Admin',
-                'apellido'  => 'Sistema',
+                'apellido'  => 'Rocha',
                 'tipo_id'   => 'Cédula de Ciudadanía',
                 'numero_id' => '0000000000',
-                'password'  => Hash::make('Admin123!'),
+                'password'  => Hash::make('Io12345#'),
             ]
         );
 
