@@ -7,7 +7,11 @@ RUN apt-get update && apt-get install -y \
     libsqlite3-dev \
     libonig-dev \
     libcurl4-openssl-dev \
-    && docker-php-ext-install pdo pdo_sqlite mbstring zip bcmath curl
+    libpng-dev \
+    libjpeg-dev \
+    libfreetype6-dev \
+    && docker-php-ext-configure gd --with-freetype --with-jpeg \
+    && docker-php-ext-install pdo pdo_sqlite mbstring zip bcmath curl gd
 
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
