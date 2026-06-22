@@ -1,0 +1,144 @@
+.admin-wrap {
+    padding: 2rem 3rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.admin-header {
+    margin-bottom: 2rem;
+}
+
+.admin-tag {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+    color: #00ff88;
+    letter-spacing: 3px;
+    margin-bottom: 8px;
+}
+
+.admin-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+}
+
+.admin-title span {
+    color: #00ff88;
+}
+
+.admin-sub {
+    color: #888;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.alert-success {
+    background: rgba(0,255,136,0.1);
+    border: 1px solid #00ff88;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 1.5rem;
+    color: #00ff88;
+    font-size: 14px;
+}
+
+.table-wrap {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.admin-table thead tr {
+    background: rgba(0,255,136,0.05);
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.admin-table th {
+    padding: 14px 16px;
+    text-align: left;
+    color: #00ff88;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.admin-table td {
+    padding: 14px 16px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    color: #fff;
+}
+
+.admin-table td.muted {
+    color: #aaa;
+}
+
+.admin-table tbody tr:hover {
+    background: rgba(255,255,255,0.03);
+}
+
+.badge {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.badge-pendiente {
+    background: rgba(255,193,7,0.15);
+    color: #ffc107;
+}
+
+.badge-aceptada {
+    background: rgba(0,255,136,0.15);
+    color: #00ff88;
+}
+
+.badge-cancelada {
+    background: rgba(255,59,59,0.15);
+    color: #ff3b3b;
+}
+
+.btn-aceptar {
+    background: rgba(0,255,136,0.1);
+    border: 1px solid #00ff88;
+    color: #00ff88;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 6px;
+    transition: background 0.2s;
+}
+
+.btn-aceptar:hover {
+    background: rgba(0,255,136,0.25);
+}
+
+.btn-cancelar {
+    background: rgba(255,59,59,0.1);
+    border: 1px solid #ff3b3b;
+    color: #ff3b3b;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-cancelar:hover {
+    background: rgba(255,59,59,0.25);
+}
+
+.empty-msg {
+    padding: 2rem;
+    text-align: center;
+    color: #555;
+}
