@@ -24,7 +24,6 @@ class RolesSeeder extends Seeder
         $admin->givePermissionTo(['ver citas','crear citas','cancelar citas','ver usuarios','eliminar usuarios']);
         $user->givePermissionTo(['ver citas','crear citas','cancelar citas']);
 
-        // Crea un admin de prueba si no existe (necesario porque la BD se reinicia en cada deploy)
         $adminUser = User::firstOrCreate(
             ['email' => 'danielpulidorocha2006@gmail.com'],
             [
